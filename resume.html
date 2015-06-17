@@ -10,6 +10,28 @@ iframe {
         width: 465px;
 }
 
+aside, article, section, header, footer, nav {
+  display: block;
+}
+div, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+}
+html {
+margin: 0 auto;
+padding: 0;
+}
+body {
+padding: 0 0 25px;
+background-color: white;
+background-size: cover;
+font: normal 14px 'Dosis', sans-serif;
+width: 900px;
+margin: 0 auto;
+}
+header {
+  padding: 20px 25px;
+}
 nav {
 color: gray;
 list-style-type: none;
@@ -20,13 +42,67 @@ text-align: left;
 text-transform: lowercase;
 margin: 0 auto;
 }
-
 li {
 display: inline;
+}
+h1 {
+color: #666666;
+font: font-family: 'Raleway', sans-serif;
+text-align: left;
+text-transform: uppercase;
+margin: 0 auto;
+margin-top: 10px;
+margin-right: 65px;
+float: left;
+}
+h2 {
+color: black;
+font-size: 38px;
+margin-top: 155px;
+}
+h3 {
+color: gray;
+font-size: 32px;
+margin-top: 10px;
+margin-left: 15px;
+}
+a {
+color: gray;
+margin: 20px;
+border: 0px;
+text-decoration: none;
+}
+a:hover {
+opacity: .5;
+}
+#socialMedia {
+  margin-top: 225px;
+  margin-bottom: 30px;
+  margin-left:210px;
+}
+#logo {
+margin: 0 auto;
+margin-top: 45px;
+left:5px;
+float: left;
+height: 250px;
+}
+footer {
+    margin-top: 10px;
+    margin-left: 600px;
+    padding-bottom: 3px;
+}
+.border {
+  border: 1.5px solid gray;
+  padding: 10px;
+  width: 800px;
+}
+
 
 
 </style>
 </head>
+
 <body>
         <nav>
             <ul>
@@ -37,8 +113,10 @@ display: inline;
                 <li><a href="https://www.monicagarcia.me/resume.html">resume</a></li>
             </ul> 
         </nav>
-        
-        <iframe src="http://i.imgur.com/vrc3eTX.png"></iframe>
+        <div class="border">
+         <iframe src="http://i.imgur.com/vrc3eTX.png"></iframe>
+         <footer></footer>
+        </div>
 <!--<h1>Resume</h1></body>
 <table border="1" cellpadding="10" cellspacing="5">
 <caption>Experience</caption>
